@@ -1,0 +1,107 @@
+.navigation {
+    padding-bottom: 10px;
+    /* position: absolute; */
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+
+}
+.navbar-logo {
+    position: absolute;
+    top: 11px;
+    right: 126.5%;
+    background-image: url("../images/logo.svg");
+    background-size: cover;
+    background-position: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-right: 7.5%;
+    overflow-x: visible;
+}
+.navbar-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 8%;
+    height: auto;
+    /* position: absolute; */
+    margin-left: 15%;
+    align-content: center;
+    padding: 0% 7.5%;
+    position: relative;
+}
+.navbar-link {
+    float: left;
+    /* padding-left: 0; */
+    /* margin-left: 0.05rem; */
+    -webkit-text-decoration-style: none;
+    text-decoration-style: none;
+    /* width: 100%; */
+    display: inline-flex;
+    position: relative;
+    padding-right: 16%;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+    font-family: Arial;
+    font-weight: 900;
+
+}
+
+.navbar-link a:hover { 
+    text-decoration:underline;
+}
+
+
+.snipcart-checkout {
+    background-image: url("../images/snipcart-add-item.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    width: 21px;
+    height: 21px;
+    margin: 3% auto;
+    position: absolute !important;
+    right: 0%;
+    /* top: 2.7%; */
+    padding: 2px;
+}
+.MuiAppBar-root {
+    width: 100%;
+    display: flex;
+    z-index: 1100;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+
+    color:  #ffffff00 !important;
+    background-color: #ffffff !important;
+}
+@media only screen and (max-width: 450px) {
+    .navbar-link a{
+        font-size: 1.5rem;
+    }
+
+    .snipcart-checkout {
+        width: 19px;
+        height: 19px;
+        top: .2rem;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .navbar-link a{
+        font-size: 1.2rem;
+
+        font-weight: 600;
+    }
+}
+

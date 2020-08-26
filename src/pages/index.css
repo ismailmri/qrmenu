@@ -1,0 +1,155 @@
+.menu-title {
+  margin: 10% auto auto auto;
+  padding: auto;
+  text-align: center;
+  color: rgb(95,0,56);
+}
+
+.products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  min-width: 192px;
+  max-width: 100%;
+  padding: auto;
+  margin: 2rem 1rem;
+  overflow: hidden;
+}
+
+.all-products {
+  /* top: 214px;
+  left: 59px; */
+  justify-content: space-between;
+  margin: auto;
+  display: block;
+  min-width: 192px;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  position: relative;
+  height: 100%;
+  margin: auto .7rem auto .6rem;
+  padding: auto;
+  /* margin-left: 1rem;
+  margin-right: 0; */
+  width: 256px;
+  /* max-height: 450px; */
+  text-align: center;
+  font-family: arial;
+  overflow: hidden;
+}
+
+.card:hover {
+  opacity: .7;
+}
+
+
+.gatsbyImageWrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.Block1 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.card h4 {
+  font-family: Helvetica, sans-serif;
+  margin: 10% auto;
+  color: rgb(95,0,56);
+}
+
+
+.short-description {
+      line-height: normal;
+      font-weight: 400;
+      font-family: Avenir;
+      opacity: 0.5;
+      font-size: 13px;
+      /* color: #22232B; */
+      color: rgb(91, 2, 54);
+      margin: 0 0 1rem 0;
+      /* position: absolute;
+      bottom: 51px;
+      left: 0px;
+      letter-spacing: 0em; */
+}
+
+.price:nth-child(4) {  
+  /* color: #000; */
+  color: rgb(95,0,56);
+  display: inline-flex;
+  padding: 1rem;
+  text-decoration: none;
+  margin: 0;
+  font-weight: normal;
+}
+
+/* .price:nth-child(4) {
+  text-decoration-line: line-through;
+  color: #999;
+  line-height: normal;
+  font-weight: 400;
+  font-family: Avenir;
+  font-size: 16px;
+  color: #22232B;
+
+} */
+
+.card button {
+  height: 24px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 24px;
+  padding: 8px 8px;
+  margin: 2.5% 3.5%;
+  background-image: url('../images/snipcart-add-item.svg');
+  background-size: contain;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 900px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .all-products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5%;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    /* overflow: hidden; */
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 90%;
+    height: 100%;
+  }
+  .all-products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
