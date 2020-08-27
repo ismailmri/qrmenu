@@ -13,7 +13,7 @@
   margin-bottom: 50px;
   font: 300 60px 'Oswald', sans-serif;
   letter-spacing: 6px;
-  color: #000;
+  color: #111;
   margin-bottom: 25px;
 }
 
@@ -31,8 +31,6 @@
   max-width: 400px;
   font-family: 'Lato';
   font-weight: 400;
-  padding: auto;
-  margin: auto;
 }
 
 .form-control, textarea {
@@ -53,8 +51,8 @@ input,
       display: block;
       width: 100% !important;
       background-color: #fff;
-      color: #0000;
-      border: #000 solid 1px;
+      color: #0b132e;
+      border: #0b132e solid 1px;
       position: relative;
       box-sizing: border-box;
       margin: 1rem 0;
@@ -65,7 +63,6 @@ input,
 .send-button {
   display: inline-block;
   padding: 0 20px;
-  margin: auto;
   height: 50px;
   width: 400px;
   color: #fff;
@@ -73,18 +70,10 @@ input,
   letter-spacing: 0.25rem;
   text-transform: uppercase;
   text-decoration: none;
-  /* background-size: 400%; */
+  background-size: 400%;
   background: #111;
   border-radius: 10px;
   border: #fff solid 1px;
-}
-
-.send-button:hover {
-  cursor: pointer;
-  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-  background-size: 400%;
-  border: none;
-
 }
 
 /* Begin Right Contact Page */
@@ -110,7 +99,7 @@ input,
 .contact-text {
   font: 300 18px 'Lato', sans-serif;
   letter-spacing: 1.9px;
-  color: #bbb;
+  color: #111;
 }
 
 .place {
@@ -132,7 +121,7 @@ input,
 }
 
 .contact-text a:hover {
-  color: #000;
+  color: #111;
   text-decoration: none;
 }
 
@@ -143,18 +132,20 @@ input,
   font-size: 2.3rem;
   text-align: center;
   width: 100%;
-    margin: auto;
-  padding: auto;
 }
 
+.social-media-list a {
+  color: #111;
+}
 
 .social-media-list a {
   position: relative; 
-  /* top: 0; */
-  /* left: -20px; */
+  top: 0;
+  left: -20px;
   display: inline-block;
   height: 70px;
   width: 70px;
+  margin: 10px auto;
   line-height: 70px;
   border-radius: 50%;
   color: #fff;
@@ -175,11 +166,10 @@ input,
   opacity: 0;
   box-shadow: 0 0 0 1px #fff;
   transition: all .2s ease-in-out;
-  text-align: center;
 }
 
 .social-media-list a:hover {
-  background-color: #999; 
+  background-color: #fff; 
 }
 
 .social-media-list a:hover:after {
@@ -217,14 +207,6 @@ hr {
 @media screen and (max-width: 760px) {
     .contact {
         height: 100%;
-        text-align: center;
-        margin: auto;
-        padding: auto;
-    }
-
-    .contact-wrapper {
-      padding: auto;
-      margin: auto;
     }
 
   .section-header {
@@ -236,10 +218,9 @@ hr {
       margin: 1rem 0;
   }
 
-  .send-button {
-      width: 70%;
-      margin-left: 13%;
-      padding: auto;
+  button {
+      width: 50%;
+      margin: 1rem;
       text-align: center;
       align-content: center;
       justify-content: center;
@@ -308,10 +289,11 @@ hr {
   
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
 
   .send-button {
     width: 80%;
     margin-left: 10%;
+    padding: auto;
   }
 }
