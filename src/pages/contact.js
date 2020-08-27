@@ -37,7 +37,7 @@ const About = () => {
                         </div>
 
                         
-                        <button className="btn btn-primary send-button" id="submit" type="submit" value="SEND" placeholder="Send" >
+                        <button className="send-button" id="submit" type="submit" value="SEND" placeholder="Send" >
                             SEND
                         
                         </button>

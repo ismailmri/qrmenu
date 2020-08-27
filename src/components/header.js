@@ -31,7 +31,7 @@ export default function SimpleMenu() {
         onClose={handleClose}
       >
         <MenuItem onClick={handleClose}><Link to="/">Home</Link></MenuItem>
-        <MenuItem onClick={handleClose}><Link to="/contact">Menu</Link></MenuItem>
+        <MenuItem onClick={handleClose}><Link to="/">Menu</Link></MenuItem>
         <MenuItem onClick={handleClose}><Link to="/contact">Contact</Link></MenuItem>
       </Menu>
       <Button href="/snipcart-checkout" className="snipcart-checkout" />
