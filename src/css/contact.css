@@ -38,6 +38,8 @@
   background-color: #fff;
   color: #111;
   letter-spacing: 1px;
+  padding: auto;
+  margin: auto;
 }
 
 
@@ -55,7 +57,7 @@ input,
       border: #0b132e solid 1px;
       position: relative;
       box-sizing: border-box;
-      margin: 1rem 0;
+      margin: auto;
       border-radius: 10px;
 
   }
@@ -215,7 +217,7 @@ hr {
 
   input, textarea {
       padding: 30px;
-      margin: 1rem 0;
+      margin: auto;
   }
 
   button {
@@ -258,7 +260,7 @@ hr {
   }  
   .form-control, textarea {
     max-width: 300px;
-    margin: 1rem auto;
+    margin: auto;
   }
 
   button {
