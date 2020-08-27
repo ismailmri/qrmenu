@@ -14,30 +14,15 @@ const About = () => {
                 
                 <div className="contact-wrapper">
                     
-
-                    
                     <form className="form-horizontal" netlify="true">
                     
-                        <div className="form-group">
-                            <div className="col-sm-12">
                             <input type="text" className="form-control" id="name" placeholder="NAME" name="name"  />
-                            </div>
-                        </div>
 
-                        <div className="form-group">
-                            <div className="col-sm-12">
                             <input type="email" className="form-control" id="email" placeholder="EMAIL" name="email" />
-                            </div>
-                        </div>
 
-                        <div className="form-group">
-                            <div className="col-sm-12">
                             <textarea className="form-control" rows="10" placeholder="MESSAGE" name="message"></textarea>
-                            </div>
-                        </div>
 
-                        
-                        <button className="send-button" id="submit" type="submit" value="SEND" placeholder="Send" >
+                        <button className="send-button" id="submit" type="submit" placeholder="Send" >
                             SEND
                         
                         </button>
