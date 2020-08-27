@@ -1,7 +1,7 @@
 .contact {
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: #111;
   overflow: hidden;
   padding-bottom: 200px;
 }
@@ -13,7 +13,7 @@
   margin-bottom: 50px;
   font: 300 60px 'Oswald', sans-serif;
   letter-spacing: 6px;
-  color: #111;
+  color: #000;
   margin-bottom: 25px;
 }
 
@@ -36,10 +36,8 @@
 .form-control, textarea {
   max-width: 400px;
   background-color: #fff;
-  color: #111;
+  color: #000;
   letter-spacing: 1px;
-  padding: auto;
-  margin: auto;
 }
 
 
@@ -52,30 +50,42 @@ input,
       padding: 20px;
       display: block;
       width: 100% !important;
-      background-color: #fff;
-      color: #0b132e;
-      border: #0b132e solid 1px;
+      background-color: #0b132e;
+      color: #fff;
+      border: #000 solid 1px;
       position: relative;
       box-sizing: border-box;
-      margin: auto;
+      margin: 1rem 0;
       border-radius: 10px;
 
   }
 
 .send-button {
-  display: inline-block;
-  padding: 0 20px;
-  height: 50px;
-  width: 400px;
-  color: #fff;
-  font-size: 0.85rem;
-  letter-spacing: 0.25rem;
-  text-transform: uppercase;
-  text-decoration: none;
+  border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 1rem auto;
+    overflow: hidden;
+
+    width: 55%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+    display: inline-block;
+    z-index: 10;
+    margin-left: 10%;
+}
+
+.send-button:hover {
+  cursor: pointer;
   background-size: 400%;
-  background: #111;
-  border-radius: 10px;
-  border: #fff solid 1px;
+  opacity: .7;
+  border: none;
+
 }
 
 /* Begin Right Contact Page */
@@ -101,7 +111,7 @@ input,
 .contact-text {
   font: 300 18px 'Lato', sans-serif;
   letter-spacing: 1.9px;
-  color: #111;
+  color: #bbb;
 }
 
 .place {
@@ -123,7 +133,7 @@ input,
 }
 
 .contact-text a:hover {
-  color: #111;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -137,7 +147,7 @@ input,
 }
 
 .social-media-list a {
-  color: #111;
+  color: #fff;
 }
 
 .social-media-list a {
@@ -217,13 +227,13 @@ hr {
 
   input, textarea {
       padding: 30px;
-      margin: auto;
+      margin: 1rem 0;
   }
 
   button {
       width: 50%;
       margin: 1rem;
-      text-align: center;
+      align-text: center;
       align-content: center;
       justify-content: center;
   }
@@ -260,7 +270,7 @@ hr {
   }  
   .form-control, textarea {
     max-width: 300px;
-    margin: auto;
+    margin: 1rem auto;
   }
 
   button {
@@ -291,11 +301,9 @@ hr {
   
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 410px) {
 
-  .send-button {
-    width: 80%;
-    margin-left: 10%;
-    padding: auto;
+  button {
+    width: 50%;
   }
 }
