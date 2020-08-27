@@ -66,10 +66,10 @@
     display: inline-flex;
     width: 21px;
     height: 21px;
-    margin: 3% auto;
+    /* margin: 3% auto; */
     position: absolute !important;
     right: 0%;
-    /* top: 2.7%; */
+    top: 2%;
     padding: 2px;
 }
 .MuiAppBar-root {
@@ -93,7 +93,7 @@
     .snipcart-checkout {
         width: 19px;
         height: 19px;
-        top: .2rem;
+        top: 1rem;
     }
 }
 
