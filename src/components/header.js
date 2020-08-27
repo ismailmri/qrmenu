@@ -20,7 +20,7 @@ export default function SimpleMenu() {
 
   return (
     <div>
-      <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{marginTop: "2%", fontSize: "21px"}}>
+      <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{marginTop: "2%", fontSize: "21px", paddingLeft: "0", marginLeft: "0"}}>
         <MenuIcon />
       </Button>
       <Menu
