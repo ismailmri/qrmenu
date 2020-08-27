@@ -50,14 +50,14 @@ input,
       font-size: 1rem;
       letter-spacing: 0.25rem;
       padding: 20px;
-      display: block;
+      /* display: block; */
       width: 100% !important;
       background-color: #0b132e;
       color: #fff;
       border: #000 solid 1px;
       position: relative;
       box-sizing: border-box;
-      margin: 5% auto auto auto;
+      margin: 3% auto;
       border-radius: 10px;
 
   }
@@ -79,7 +79,7 @@ input,
     text-decoration: none;
     display: inline-block;
     z-index: 10;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 
 .send-button:hover {
@@ -135,7 +135,7 @@ input,
 }
 
 .contact-text a:hover {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
@@ -183,7 +183,7 @@ input,
 }
 
 .social-media-list a:hover {
-  background-color: #fff; 
+  background-color: #999; 
 }
 
 .social-media-list a:hover:after {
