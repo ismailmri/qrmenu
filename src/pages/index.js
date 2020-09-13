@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import Img from 'gatsby-image';
 import Layout from '../components/layout';
 import './index.css'
+import UnityModel from '../modules/unityModel';
 
 export const query = graphql `
   {
@@ -40,6 +41,7 @@ const IndexPage = ({ data }) => {
   const products = data.allContentfulProduct.nodes;
   return (
     <Layout>
+      <UnityModel />
       <h1 className="menu-title">Menu</h1>
       <div className="products">
         {products.map(product => (

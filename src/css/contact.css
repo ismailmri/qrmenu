@@ -234,7 +234,7 @@ hr {
   button {
       width: 50%;
       margin: 1rem;
-      align-text: center;
+      text-align: center;
       align-content: center;
       justify-content: center;
   }
